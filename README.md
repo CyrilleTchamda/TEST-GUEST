@@ -32,10 +32,10 @@ npm run dev
 
 ### Étape 3 : Lancer le Frontend
 
-1. Ouvrez un nouveau terminal dans le dossier du frontend (`frontend/mon-ascenseur`) :
+1. Ouvrez un nouveau terminal dans le dossier du frontend (`frontend/gs-commande`) :
 
 ```bash
-cd frontend/gs-stock
+cd frontend/gs-commande
 npm install
 npm run dev
 ```
@@ -56,7 +56,7 @@ Le code est rigoureusement structuré en respectant les consignes de séparation
 - **`routes/commande.routes.js`** : Déclaration des points d'entrée (Endpoints REST).
 - **`index.js`** : Point d'entrée, middlewares CORS, initialisation et seed initial.
 
-### 🔹 Frontend (`/frontend/gs-stock`)
+### 🔹 Frontend (`/frontend/gs-commande`)
 
 - **`src/api/`** et **`src/services/`** : Services d'appels API encapsulés dans des modules isolés (`commandeService.js`).
 - **`src/utils/`** : Utilitaires de calculs (chiffre d'affaires) et de formatages (dates, prix en FCFA).
